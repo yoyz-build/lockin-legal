@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Lockin</title>
+<style>
+  :root {
+    --ground: #FFFFFF;
+    --ink: #17130F;
+    --ink-2: #4A423A;
+    --line: #E4DDD1;
+    --accent: #8A5716;
+    --note-bg: #FBF7F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0A0908;
+      --ink: #F6F1E8;
+      --ink-2: rgba(246, 241, 232, 0.68);
+      --line: #2C2521;
+      --accent: #DDA25C;
+      --note-bg: #15120F;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.25rem 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  .updated { color: var(--ink-2); font-size: .9rem; margin: 0 0 2.5rem; }
+  h2 {
+    font-size: 1.15rem; margin: 2.6rem 0 .7rem; letter-spacing: -.01em;
+    padding-top: 1.4rem; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
+  p { margin: 0 0 1rem; color: var(--ink-2); }
+  p.lead { color: var(--ink); font-size: 1.05rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.3rem; color: var(--ink-2); }
+  li { margin-bottom: .4rem; }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--accent); }
+  .note {
+    background: var(--note-bg); border: 1px solid var(--line);
+    border-radius: 8px; padding: 1rem 1.15rem; margin: 0 0 1.2rem;
+  }
+  .note p:last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 0 0 1.2rem; font-size: .93rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); font-weight: 600; }
+  td { color: var(--ink-2); }
+  td:first-child { color: var(--ink); }
+  footer { margin-top: 3.5rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--ink-2); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Politique de confidentialité de Lockin</h1>
+<p class="updated">Dernière mise à jour : 6 septembre 2026</p>
+
+<p class="lead">Lockin bloque les applications que tu choisis pendant une séance de concentration que tu lances toi-même. Cette page décrit précisément quelles données l'application traite, lesquelles ne quittent jamais ton téléphone, et comment tout effacer.</p>
+
+<h2>Qui est responsable</h2>
+<p>Lockin est édité par Clovis Bonnard, développeur indépendant. Pour toute question relative à tes données, écris à <a href="mailto:contact@lockin.com">contact@lockin.com</a>.</p>
+
+<h2>La liste de tes applications bloquées ne nous parvient jamais</h2>
+<div class="note">
+  <p>C'est le point le plus important de cette page. Pour bloquer des applications, Lockin utilise le <strong>Temps d'écran d'Apple</strong>, qui ne remet à l'application que des jetons opaques : nous ne pouvons pas savoir quelles applications tu as choisies, et nous n'essayons pas de le découvrir.</p>
+  <p>Ta sélection est conservée sur ton appareil, dans un espace partagé entre Lockin et son extension d'affichage. Elle n'est envoyée à aucun serveur, ni au nôtre ni à celui de quiconque.</p>
+</div>
+<p>L'autorisation Temps d'écran est demandée en mode individuel : elle ne concerne que l'appareil sur lequel tu l'accordes, et jamais un autre compte. Tu peux la retirer à tout moment depuis les réglages d'iOS. Lockin ne mesure pas ton usage du téléphone et n'utilise pas les fonctions de surveillance d'activité proposées par Apple.</p>
+
+<h2>Ce que Lockin enregistre sur ses serveurs</h2>
+<p>Un compte est créé automatiquement au premier lancement, sans que tu aies à fournir quoi que ce soit. Il permet de retrouver ta progression et de te relier à tes amis. Voici l'intégralité de ce qu'il contient.</p>
+
+<table>
+  <thead><tr><th>Donnée</th><th>Pourquoi</th></tr></thead>
+  <tbody>
+    <tr><td>Un identifiant de compte</td><td>Rattacher ta progression à toi, sans t'identifier nominativement</td></tr>
+    <tr><td>Ton prénom, si tu en renseignes un</td><td>T'afficher auprès de tes amis et dans les groupes</td></tr>
+    <tr><td>Ton code de parrainage</td><td>Permettre à quelqu'un de t'ajouter</td></tr>
+    <tr><td>L'historique de tes séances</td><td>Calculer ton XP, tes séries et tes statistiques</td></tr>
+    <tr><td>Le nom de tes catégories</td><td>Comparer des catégories communes entre amis</td></tr>
+    <tr><td>Tes cartes obtenues</td><td>Conserver ta collection si tu changes de téléphone</td></tr>
+    <tr><td>Tes amis, groupes et parrainages</td><td>Faire fonctionner les classements</td></tr>
+  </tbody>
+</table>
+
+<h3>Une précision sur l'intention de séance</h3>
+<p>Si tu écris une intention avant de démarrer une séance, ce texte est enregistré avec la séance sur nos serveurs. C'est un champ libre : n'y écris rien que tu ne voudrais pas voir stocké. Il n'est montré à personne d'autre que toi.</p>
+
+<h3>La connexion avec Apple</h3>
+<p>La connexion avec Apple est facultative. Elle sert à retrouver ton compte sur un autre appareil. Nous demandons uniquement ton <strong>nom</strong> à Apple. Nous ne demandons pas ton adresse électronique, et nous n'en recevons aucune.</p>
+
+<h2>Ce qui reste sur ton téléphone</h2>
+<ul>
+  <li>La sélection des applications et catégories bloquées</li>
+  <li>Ta photo de profil et les photos de tes catégories, qui ne sont jamais téléversées</li>
+  <li>Tes réglages d'affichage et de notifications</li>
+</ul>
+
+<h2>Ce que Lockin ne fait pas</h2>
+<ul>
+  <li>Aucune publicité, aucun traceur publicitaire, aucun identifiant de suivi</li>
+  <li>Aucun outil de mesure d'audience ou d'analyse tierce</li>
+  <li>Aucune collecte de ta position, de tes contacts, de ton carnet d'adresses ou de données de santé</li>
+  <li>Aucune vente ni location de données à qui que ce soit</li>
+  <li>Aucun suivi de ton activité sur d'autres applications ou d'autres sites</li>
+</ul>
+
+<h2>Ce que les autres voient de toi</h2>
+<p>Si tu ajoutes des amis ou rejoins un groupe, les personnes concernées voient ton prénom, ton score, ta série en cours et tes statistiques par catégorie. Rien d'autre : ni ton historique détaillé, ni tes intentions, ni la liste de tes applications bloquées. Une amitié se noue toujours par échange volontaire d'un code, et tu peux retirer quelqu'un à tout moment.</p>
+
+<h2>Où vivent ces données</h2>
+<p>Les données de compte sont hébergées chez <strong>Supabase</strong>, dans un centre de données situé en <strong>Allemagne</strong>, au sein de l'Union européenne. Supabase agit comme sous-traitant et n'utilise ces données que pour fournir le service d'hébergement.</p>
+<p>Les abonnements, lorsqu'ils existent, sont traités par Apple. Nous ne voyons ni ton moyen de paiement, ni tes coordonnées bancaires, ni ton adresse de facturation.</p>
+
+<h2>Combien de temps elles sont conservées</h2>
+<p>Tes données restent tant que ton compte existe. Il n'y a ni archivage ni copie de sauvegarde conservée au-delà des sauvegardes techniques courantes de l'hébergeur, lesquelles sont écrasées au fil du temps.</p>
+
+<h2>Comment tout supprimer</h2>
+<div class="note">
+  <p>Dans l'application, ouvre <strong>Profil</strong>, va dans la section <strong>Données</strong>, puis touche <strong>Supprimer mon compte</strong>.</p>
+  <p>La suppression est immédiate et définitive. Elle efface ton profil, tes séances, tes catégories, tes cartes, tes amitiés, tes groupes et tes parrainages. Les groupes que tu as créés disparaissent avec ton compte, y compris pour leurs autres membres. Rien ne permet de revenir en arrière, pas même une reconnexion avec Apple.</p>
+</div>
+<p>La ligne voisine, <strong>Effacer toutes les données</strong>, ne fait que remettre l'application à zéro sur cet appareil : elle ne supprime pas ton compte.</p>
+
+<h2>Tes droits</h2>
+<p>Conformément au Règlement général sur la protection des données, tu disposes d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité sur tes données. Le droit d'effacement s'exerce directement dans l'application, comme décrit ci-dessus. Pour les autres, écris à <a href="mailto:contact@lockin.com">contact@lockin.com</a> : une réponse te parviendra sous trente jours.</p>
+<p>Le traitement repose sur l'exécution du service que tu demandes en utilisant l'application. Si tu estimes que tes droits ne sont pas respectés, tu peux saisir la Commission nationale de l'informatique et des libertés, à l'adresse <a href="https://www.cnil.fr">cnil.fr</a>.</p>
+
+<h2>Les enfants</h2>
+<p>Lockin ne s'adresse pas aux enfants de moins de treize ans et ne collecte pas sciemment leurs données. Si tu constates qu'un enfant de moins de treize ans a créé un compte, écris-nous et il sera supprimé.</p>
+
+<h2>Sécurité</h2>
+<p>Les échanges entre l'application et nos serveurs passent par une liaison chiffrée. L'accès aux données est cloisonné par compte au niveau de la base : une requête ne peut lire que les lignes du compte qui l'émet.</p>
+
+<h2>Modifications de cette page</h2>
+<p>Si cette politique change, la date en haut de page est mise à jour. Un changement qui élargirait ce que nous collectons sera signalé dans l'application avant d'entrer en vigueur.</p>
+
+<footer>
+  Lockin — Clovis Bonnard — <a href="mailto:contact@lockin.com">contact@lockin.com</a>
+</footer>
+
+</main>
+</body>
+</html>
